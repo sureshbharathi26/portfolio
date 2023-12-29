@@ -1,0 +1,191 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    width:40%;
+    left: 20px;
+    padding-top: 50px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    font-family: 'Lato', sans-serif;
+}
+.navbar a:hover{
+    color:lightcoral;
+    cursor: pointer;
+}
+.navbar a{
+    position:relative;
+    font-size:50px ;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+.navbar a::before{
+    content:'';
+    position:absolute;
+    top:100%;
+    left:0;
+    width:0;
+    height:2px;
+    background:#fff;
+    transition: .3s;
+}
+nav a:hover::before{
+    width: 100% ;
+}
+body{
+    background-image: url('wp4676582-4k-pc-wallpapers.jpg');
+    background-size: cover;
+}
+
+footer{
+    position:relative;
+    display: flex;
+    justify-content: flex-end;
+    right: -10rem;
+    left: -10rem;
+    bottom: -20rem;
+}
+.my{
+    width:800px;
+    background-color:blueviolet;
+    border:50px;
+    border-radius:0;
+    border-style: solid;
+    border-color: aquamarine;
+    transition-duration: 3s;
+}
+.my:hover{
+    cursor: pointer;
+    background-color: darkseagreen;
+    width:1000px;
+}
+.intro h1{
+    color:#dcdcdc;
+    font-size:150px;
+    width: 50%;
+    top: -20rem;
+}
+.intro p{
+    color:#dcdcdc;
+    font-size: 40px;
+    width:47%;
+    top: -18rem;
+    font-family: 'Raleway', sans-serif;
+}
+.intro{
+    top: -15rem;
+    margin-top:-50rem;
+    padding-left:150px;
+    background-color: tomato;
+    padding: 50px;
+}
+.footer{
+    position:relative;
+    display: flex;
+    justify-content: flex-end;
+    right: -10rem;
+    left: -10rem;
+    bottom: -20rem;
+    margin-bottom: -10rem;
+}
+.footer img{
+    width:1200px;
+    border:40px;
+    border-style: solid;
+    border-color:lightgreen;
+    margin-bottom: -10rem;
+    border-radius:0;
+    transition-duration:3s;
+}
+.footer img:hover{
+    border-color:aquamarine;
+    width: 1400px;
+    border-radius: 500px;
+}
+.details{
+    color: aliceblue;
+    background-color:cornflowerblue;
+    padding: 70px;
+    margin-top: -20rem;
+    overflow: hidden;
+}
+.details h1{
+    font-size:80px;
+    top: -15rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(90) 1s 1 normal both ;
+}
+@keyframes typing {
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+    
+}
+.details h2{
+    font-size:40px;
+    font-family: 'Lato', sans-serif;
+}
+.Head{
+    background-image: url("mystery-forest-landscape-autumn-tranquil-scene-generative-ai.jpg");
+}
+.project{
+    background-image: url('vecteezy_woman-standing-on-a-rock-in-the-middle-of-a-forest_23002895.jpg');
+}
+
+.prodetails{
+    position: relative;
+    padding:90px;
+    background-color:#48c9b0;;
+    margin-top:25rem;
+}
+.prodetails h1{
+    font-size:90px;
+    top: -10rem;
+    color: aliceblue;
+    font-family: 'Quicksand', sans-serif;
+}
+.prodetails h2{
+    font-size:90px;
+    color: aliceblue;
+    font-family: 'Quicksand', sans-serif;
+}
+.prodetails ul{
+    font-size:50px;
+    color: aliceblue;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.footer1{
+    position:relative;
+    display: flex;
+    justify-content: flex-end;
+    right: -10rem;
+    left: -10rem;
+    bottom: -20rem;
+    margin-bottom: -10rem;
+    top: -15rem;
+}
+.footer1 .image3{
+    width:800px;
+    border:10px;
+    border-style: solid;
+    border-color:lightgreen;
+    margin-bottom: -40rem;
+    border-radius:10px;
+    transition-duration:3s; 
+    background-color:#add8e6;  
+}
+
+.footer1 img:hover{
+    border-color:darkmagenta;
+    width: 1000px;
+    border-radius:10px;
+    background-color:lightblue;
+}
